@@ -49,7 +49,7 @@
 
 
 // task3
-// let year = prompt('Ввдите дату')
+// let year = prompt('Ввeдите дату')
 // if (year % 400 ===0 ){
 //    console.log(year + ' год - високосный');
 // }
@@ -66,3 +66,31 @@
 
 
 // task4
+let summa = prompt('Введите сумму')
+let valuta = prompt('Введите валюту (eur, uan, azn)')
+
+let eur = 0.000078
+let uan = 0.003003
+let azn = 0.000139
+
+if (valuta = eur){
+    console.log(summa * eur)
+}
+else if (valuta = uan){
+    console.log(summa * uan)
+}
+else if (valuta = azn){
+    console.log(summa * azn)
+}
+
+
+// task5
+// let circle_num = prompt('Введите длину окружности')
+// let square_num = prompt('Введите периметр квадрата')
+//
+// if (circle_num < square_num){
+//     console.log('Может поместиться в кдадрат')
+// }
+// else if (circle_num >= square_num){
+//     console.log('Не может поместиться в квадрат')
+// }
